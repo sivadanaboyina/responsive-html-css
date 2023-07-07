@@ -1,0 +1,16 @@
+/* header */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ul li{
+    list-style: none;
+}
+.ul li a{
+    text-decoration: none;
+}
